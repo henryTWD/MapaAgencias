@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa Interactivo</title>
+    <!-- Estilos para ajustar el tamaño del mapa -->
+    <style>
+        #map {
+            height: 600px;
+            width: 100%;
+        }
+    </style>
+    <!-- Font Awesome para iconos personalizados, si los usas -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+
+<h1>Mapa Interactivo de Agencias</h1>
+<div id="map"></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.7.1/leaflet.js"></script>
+<script>
+    // Crear el mapa centrado en España
+    var map = L.map('map').setView([40.4168, -3.7038], 6);
+
+    // Añadir capa de mapa (OpenStreetMap)
+    L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+    }).addTo(map);
+
+    // Añadir un marcador como ejemplo
+    L.marker([40.4168, -3.7038]).addTo(map)
+        .bindPopup('Ejemplo de Agencia')
+        .openPopup();
+</script>
+
+</body>
+</html>
+
