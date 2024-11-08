@@ -23,15 +23,7 @@ Puedes ver el mapa en línea aquí: [Mapa Interactivo de Agencias](https://tu-us
 - `index.html`: Página principal que contiene el código del mapa y sus marcadores.
 - `README.md`: Descripción del proyecto.
 
-## Cómo Contribuir
-
-1. Haz un fork del repositorio.
-2. Clona tu fork: `git clone https://github.com/tu-usuario/nombre-del-repositorio.git`
-3. Crea una rama para tu contribución: `git checkout -b nueva-rama`
-4. Haz tus cambios y confírmalos: `git commit -m 'Descripción de los cambios'`
-5. Sube los cambios: `git push origin nueva-rama`
-6. Abre un pull request en el repositorio original.
 
 ## Contacto
 
-Si tienes preguntas o deseas más información sobre el proyecto, puedes contactarme en `tu-email@ejemplo.com`.
+Si tienes preguntas o deseas más información sobre el proyecto, puedes contactarme en `henry@thewisedreams.com`.
